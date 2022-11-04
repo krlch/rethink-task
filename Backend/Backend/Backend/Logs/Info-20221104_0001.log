@@ -1,0 +1,152 @@
+﻿2022-11-04 14:29:30.749 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:29:30.749 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:29:30.749 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:29:30.776 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:29:30.854 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:29:30.891 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:29:30.894 +03:00 [Information] HTTP "GET" "/" responded 200 in 61.7731 ms
+2022-11-04 14:29:30.898 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 124.9914ms
+2022-11-04 14:29:32.165 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101
+2022-11-04 14:29:32.169 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:29:32.175 +03:00 [Information] Route matched with "{action = \"GetAllContacts\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllContacts()" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:29:32.279 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.GetAllContacts (Backend)" in 96.2578ms
+2022-11-04 14:29:32.280 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:29:32.317 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101 - 500 - application/json;+charset=utf-8 152.2251ms
+2022-11-04 14:32:14.414 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:32:14.415 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:32:14.415 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:32:14.445 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:32:14.523 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:32:14.551 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:32:14.554 +03:00 [Information] HTTP "GET" "/" responded 200 in 52.3306 ms
+2022-11-04 14:32:14.558 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 115.3066ms
+2022-11-04 14:32:17.527 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101
+2022-11-04 14:32:17.530 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:32:17.537 +03:00 [Information] Route matched with "{action = \"GetAllContacts\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllContacts()" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:32:17.636 +03:00 [Information] Log in home controller is working fine
+2022-11-04 14:32:19.299 +03:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Backend.DAL.Entities.Contact, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-04 14:32:19.319 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.GetAllContacts (Backend)" in 1774.4854ms
+2022-11-04 14:32:19.320 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:32:19.320 +03:00 [Information] HTTP "GET" "/api/contacts/" responded 200 in 1792.5607 ms
+2022-11-04 14:32:19.320 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101 - 200 - application/json;+charset=utf-8 1793.1772ms
+2022-11-04 14:38:15.334 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:38:15.334 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:38:15.335 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:38:15.361 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:38:15.439 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:38:15.469 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:38:15.471 +03:00 [Information] HTTP "GET" "/" responded 200 in 53.5213 ms
+2022-11-04 14:38:15.475 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 116.5099ms
+2022-11-04 14:38:18.192 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101
+2022-11-04 14:38:18.197 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:38:18.204 +03:00 [Information] Route matched with "{action = \"GetAllContacts\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllContacts()" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:38:20.566 +03:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Backend.DAL.Entities.Contact, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-04 14:38:20.587 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.GetAllContacts (Backend)" in 2376.4516ms
+2022-11-04 14:38:20.587 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:38:20.587 +03:00 [Information] HTTP "GET" "/api/contacts/" responded 200 in 2394.5176 ms
+2022-11-04 14:38:20.588 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101 - 200 - application/json;+charset=utf-8 2395.2587ms
+2022-11-04 14:38:23.738 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104
+2022-11-04 14:38:23.739 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:38:23.747 +03:00 [Information] Route matched with "{action = \"CreateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult CreateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:38:24.759 +03:00 [Information] Executing "CreatedResult", writing value of type '"Backend.BL.utils.ServiceResult"'.
+2022-11-04 14:38:24.769 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.CreateContact (Backend)" in 1021.9378ms
+2022-11-04 14:38:24.769 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:38:24.769 +03:00 [Information] HTTP "POST" "/api/contacts/" responded 201 in 1031.1701 ms
+2022-11-04 14:38:24.770 +03:00 [Information] Request finished HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104 - 201 - application/json;+charset=utf-8 1032.0193ms
+2022-11-04 14:49:46.399 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:49:46.399 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:49:46.399 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:49:46.425 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:49:46.502 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:49:46.531 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:49:46.533 +03:00 [Information] HTTP "GET" "/" responded 200 in 53.0906 ms
+2022-11-04 14:49:46.537 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 114.6445ms
+2022-11-04 14:49:51.620 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104
+2022-11-04 14:49:51.623 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:49:51.639 +03:00 [Information] Route matched with "{action = \"CreateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult CreateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:50:45.333 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:50:45.333 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:50:45.333 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:50:45.358 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:50:45.436 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:50:45.466 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:50:45.468 +03:00 [Information] HTTP "GET" "/" responded 200 in 54.3924 ms
+2022-11-04 14:50:45.472 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 116.8134ms
+2022-11-04 14:50:55.107 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104
+2022-11-04 14:50:55.111 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:50:55.126 +03:00 [Information] Route matched with "{action = \"CreateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult CreateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:35.252 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 14:51:35.252 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 14:51:35.253 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 14:51:35.278 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 14:51:35.359 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 14:51:35.389 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 14:51:35.391 +03:00 [Information] HTTP "GET" "/" responded 200 in 55.6349 ms
+2022-11-04 14:51:35.396 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 120.5119ms
+2022-11-04 14:51:35.722 +03:00 [Information] Request starting HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104
+2022-11-04 14:51:35.726 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:51:35.744 +03:00 [Information] Route matched with "{action = \"CreateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult CreateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:36.060 +03:00 [Information] Create item
+2022-11-04 14:51:36.066 +03:00 [Information] Executing "CreatedResult", writing value of type '"Backend.BL.utils.ServiceResult"'.
+2022-11-04 14:51:36.083 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.CreateContact (Backend)" in 332.5075ms
+2022-11-04 14:51:36.084 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:51:36.084 +03:00 [Information] HTTP "POST" "/api/contacts/" responded 201 in 361.0438 ms
+2022-11-04 14:51:36.084 +03:00 [Information] Request finished HTTP/1.1 POST http://localhost:47664/api/contacts/ application/json 104 - 201 - application/json;+charset=utf-8 361.6047ms
+2022-11-04 14:51:38.856 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101
+2022-11-04 14:51:38.857 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:51:38.857 +03:00 [Information] Route matched with "{action = \"GetAllContacts\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllContacts()" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:43.135 +03:00 [Information] Get items
+2022-11-04 14:51:43.136 +03:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Backend.DAL.Entities.Contact, Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-04 14:51:43.141 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.GetAllContacts (Backend)" in 4283.7845ms
+2022-11-04 14:51:43.142 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:51:43.142 +03:00 [Information] HTTP "GET" "/api/contacts/" responded 200 in 4285.4615 ms
+2022-11-04 14:51:43.142 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/api/contacts/ application/json 101 - 200 - application/json;+charset=utf-8 4286.4177ms
+2022-11-04 14:51:47.751 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/api/contacts/4 application/json 101
+2022-11-04 14:51:47.752 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.GetSingleContacts (Backend)"'
+2022-11-04 14:51:47.753 +03:00 [Information] Route matched with "{action = \"GetSingleContacts\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Backend.DAL.Entities.Contact] GetSingleContacts(Int32)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:48.735 +03:00 [Information] Get item
+2022-11-04 14:51:48.735 +03:00 [Information] Executing "ObjectResult", writing value of type '"Backend.DAL.Entities.Contact"'.
+2022-11-04 14:51:48.736 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.GetSingleContacts (Backend)" in 982.4721ms
+2022-11-04 14:51:48.736 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.GetSingleContacts (Backend)"'
+2022-11-04 14:51:48.736 +03:00 [Information] HTTP "GET" "/api/contacts/4" responded 200 in 984.2533 ms
+2022-11-04 14:51:48.736 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/api/contacts/4 application/json 101 - 200 - application/json;+charset=utf-8 984.6155ms
+2022-11-04 14:51:51.999 +03:00 [Information] Request starting HTTP/1.1 DELETE http://localhost:47664/api/contacts/5 application/json 101
+2022-11-04 14:51:51.999 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:52.000 +03:00 [Information] Route matched with "{action = \"DeleteContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult DeleteContact(Int32)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:53.087 +03:00 [Information] Delete item
+2022-11-04 14:51:53.091 +03:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2022-11-04 14:51:53.091 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.DeleteContact (Backend)" in 1091.0738ms
+2022-11-04 14:51:53.091 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:53.091 +03:00 [Information] HTTP "DELETE" "/api/contacts/5" responded 204 in 1092.2847 ms
+2022-11-04 14:51:53.092 +03:00 [Information] Request finished HTTP/1.1 DELETE http://localhost:47664/api/contacts/5 application/json 101 - 204 - - 1093.1497ms
+2022-11-04 14:51:55.659 +03:00 [Information] Request starting HTTP/1.1 DELETE http://localhost:47664/api/contacts/5 application/json 101
+2022-11-04 14:51:55.659 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:55.659 +03:00 [Information] Route matched with "{action = \"DeleteContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult DeleteContact(Int32)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:51:57.589 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.DeleteContact (Backend)" in 1929.5907ms
+2022-11-04 14:51:57.590 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:57.608 +03:00 [Information] HTTP "DELETE" "/api/contacts/5" responded 404 in 1949.4727 ms
+2022-11-04 14:51:57.609 +03:00 [Information] Request finished HTTP/1.1 DELETE http://localhost:47664/api/contacts/5 application/json 101 - 404 - application/json;+charset=utf-8 1949.8706ms
+2022-11-04 14:52:01.038 +03:00 [Information] Request starting HTTP/1.1 PUT http://localhost:47664/api/contacts/ application/json 108
+2022-11-04 14:52:01.038 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:01.039 +03:00 [Information] Route matched with "{action = \"UpdateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult UpdateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:52:01.876 +03:00 [Information] Update item
+2022-11-04 14:52:01.876 +03:00 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2022-11-04 14:52:01.876 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.UpdateContact (Backend)" in 837.1678ms
+2022-11-04 14:52:01.876 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:01.876 +03:00 [Information] HTTP "PUT" "/api/contacts/" responded 204 in 838.3730 ms
+2022-11-04 14:52:01.876 +03:00 [Information] Request finished HTTP/1.1 PUT http://localhost:47664/api/contacts/ application/json 108 - 204 - - 838.8231ms
+2022-11-04 14:52:09.035 +03:00 [Information] Request starting HTTP/1.1 PUT http://localhost:47664/api/contacts/ application/json 109
+2022-11-04 14:52:09.035 +03:00 [Information] Executing endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:09.035 +03:00 [Information] Route matched with "{action = \"UpdateContact\", controller = \"Contact\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult UpdateContact(Backend.PL.DTO.ContactDto)" on controller "Backend.PL.Controllers.ContactController" ("Backend").
+2022-11-04 14:52:10.603 +03:00 [Information] Executed action "Backend.PL.Controllers.ContactController.UpdateContact (Backend)" in 1568.2058ms
+2022-11-04 14:52:10.604 +03:00 [Information] Executed endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:10.617 +03:00 [Information] HTTP "PUT" "/api/contacts/" responded 404 in 1582.0330 ms
+2022-11-04 14:52:10.617 +03:00 [Information] Request finished HTTP/1.1 PUT http://localhost:47664/api/contacts/ application/json 109 - 404 - application/json;+charset=utf-8 1582.4560ms
+2022-11-04 15:11:47.817 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-04 15:11:47.817 +03:00 [Information] Hosting environment: "Development"
+2022-11-04 15:11:47.817 +03:00 [Information] Content root path: "D:\Tasks\Backend\Backend\Backend\"
+2022-11-04 15:11:47.843 +03:00 [Information] Request starting HTTP/1.1 GET http://localhost:47664/ - -
+2022-11-04 15:11:47.921 +03:00 [Information] Executing endpoint '"/ HTTP: GET"'
+2022-11-04 15:11:47.950 +03:00 [Information] Executed endpoint '"/ HTTP: GET"'
+2022-11-04 15:11:47.953 +03:00 [Information] HTTP "GET" "/" responded 200 in 53.8506 ms
+2022-11-04 15:11:47.957 +03:00 [Information] Request finished HTTP/1.1 GET http://localhost:47664/ - - - 200 - - 117.5726ms

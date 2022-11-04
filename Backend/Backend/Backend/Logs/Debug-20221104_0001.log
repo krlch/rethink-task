@@ -1,0 +1,308 @@
+﻿2022-11-04 14:29:30.626 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:29:30.691 +03:00 [Debug] Hosting starting
+2022-11-04 14:29:30.748 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:29:30.748 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:29:30.748 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:29:30.753 +03:00 [Debug] Hosting started
+2022-11-04 14:29:30.807 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:29:30.828 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:29:30.851 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:29:30.852 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:29:32.165 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:29:32.165 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:29:32.168 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:29:32.168 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:29:32.178 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:29:32.179 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:29:32.179 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:29:32.179 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:29:32.179 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:29:32.180 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:32:14.240 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:32:14.352 +03:00 [Debug] Hosting starting
+2022-11-04 14:32:14.414 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:32:14.414 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:32:14.414 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:32:14.415 +03:00 [Debug] Hosting started
+2022-11-04 14:32:14.476 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:32:14.497 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:32:14.520 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:32:14.522 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:32:17.527 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:32:17.527 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:32:17.530 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:32:17.530 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:32:17.541 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:32:17.541 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:32:17.541 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:32:17.541 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:32:17.541 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:32:17.542 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:32:17.635 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:32:19.296 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:32:19.298 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:32:19.298 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:32:19.298 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:32:19.298 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:38:15.194 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:38:15.264 +03:00 [Debug] Hosting starting
+2022-11-04 14:38:15.334 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:38:15.334 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:38:15.334 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:38:15.338 +03:00 [Debug] Hosting started
+2022-11-04 14:38:15.393 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:38:15.414 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:38:15.436 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:38:15.437 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:38:18.193 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:38:18.193 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:38:18.197 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:38:18.197 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:38:18.207 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:38:18.207 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:38:18.207 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:38:18.207 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:38:18.207 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:38:18.208 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:38:18.302 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:38:20.564 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:38:20.566 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:38:20.566 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:38:20.566 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:38:20.566 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:38:23.738 +03:00 [Debug] "POST" requests are not supported
+2022-11-04 14:38:23.738 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:38:23.738 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:38:23.738 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:38:23.747 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:38:23.747 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:38:23.747 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:38:23.747 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:38:23.747 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:38:23.747 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:38:23.747 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:38:23.751 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:38:23.753 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:38:23.753 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:38:23.761 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:38:23.761 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:38:23.761 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:38:23.761 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:38:23.767 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:38:24.758 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:38:24.758 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:38:24.758 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:38:24.758 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:38:24.759 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:49:46.278 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:49:46.340 +03:00 [Debug] Hosting starting
+2022-11-04 14:49:46.399 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:49:46.399 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:49:46.399 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:49:46.399 +03:00 [Debug] Hosting started
+2022-11-04 14:49:46.456 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:49:46.476 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:49:46.499 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:49:46.500 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:49:51.620 +03:00 [Debug] "POST" requests are not supported
+2022-11-04 14:49:51.620 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:49:51.623 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:49:51.623 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:49:51.641 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:49:51.641 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:49:51.642 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:49:51.642 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:49:51.642 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:49:51.642 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:49:51.643 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:49:51.646 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:49:51.648 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:49:51.649 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:49:51.665 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:49:51.665 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:49:51.666 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:49:51.666 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:49:51.671 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:50:45.208 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:50:45.275 +03:00 [Debug] Hosting starting
+2022-11-04 14:50:45.332 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:50:45.333 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:50:45.333 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:50:45.337 +03:00 [Debug] Hosting started
+2022-11-04 14:50:45.390 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:50:45.410 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:50:45.433 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:50:45.435 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:50:55.107 +03:00 [Debug] "POST" requests are not supported
+2022-11-04 14:50:55.108 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:50:55.110 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:50:55.111 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:50:55.129 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:50:55.129 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:50:55.129 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:50:55.129 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:50:55.129 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:50:55.130 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:50:55.225 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:50:55.228 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:50:55.230 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:50:55.231 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:50:55.247 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:50:55.248 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:50:55.248 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:50:55.248 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:50:55.253 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:51:35.126 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 14:51:35.193 +03:00 [Debug] Hosting starting
+2022-11-04 14:51:35.252 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 14:51:35.252 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 14:51:35.252 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 14:51:35.256 +03:00 [Debug] Hosting started
+2022-11-04 14:51:35.309 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 14:51:35.332 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:51:35.355 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 14:51:35.357 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'
+2022-11-04 14:51:35.723 +03:00 [Debug] "POST" requests are not supported
+2022-11-04 14:51:35.723 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:51:35.726 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:51:35.726 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.CreateContact (Backend)"'
+2022-11-04 14:51:35.747 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:51:35.747 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:51:35.747 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:51:35.747 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:51:35.747 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:51:35.748 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:35.853 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:35.858 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:51:35.860 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:51:35.861 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:51:35.883 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:51:35.883 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:51:35.883 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:51:35.883 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:51:35.889 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:51:36.061 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:51:36.065 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:51:36.065 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:51:36.066 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:51:36.066 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:51:38.856 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:51:38.856 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:51:38.856 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:51:38.856 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.GetAllContacts (Backend)"'
+2022-11-04 14:51:38.858 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:51:38.858 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:51:38.858 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:51:38.858 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:51:38.858 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:51:38.858 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:38.858 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:43.136 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:51:43.136 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:51:43.136 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:51:43.136 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:51:43.136 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:51:47.751 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 14:51:47.752 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/4"'
+2022-11-04 14:51:47.752 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.GetSingleContacts (Backend)"' with route pattern '"api/contacts/{id}"' is valid for the request path '"/api/contacts/4"'
+2022-11-04 14:51:47.752 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.GetSingleContacts (Backend)"'
+2022-11-04 14:51:47.753 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:51:47.753 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:51:47.753 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:51:47.753 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:51:47.753 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:51:47.753 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:47.753 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:47.754 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:47.754 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' using the name '"id"' in request data ...
+2022-11-04 14:51:47.754 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:47.754 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:47.754 +03:00 [Debug] Attempting to validate the bound parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:47.755 +03:00 [Debug] Done attempting to validate the bound parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:48.735 +03:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-11-04 14:51:48.735 +03:00 [Debug] No information found on request to perform content negotiation.
+2022-11-04 14:51:48.735 +03:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-11-04 14:51:48.735 +03:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-11-04 14:51:48.735 +03:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+2022-11-04 14:51:51.999 +03:00 [Debug] "DELETE" requests are not supported
+2022-11-04 14:51:51.999 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/5"'
+2022-11-04 14:51:51.999 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"' with route pattern '"api/contacts/{id}"' is valid for the request path '"/api/contacts/5"'
+2022-11-04 14:51:51.999 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:52.000 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:51:52.000 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:51:52.000 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:51:52.000 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:51:52.000 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:51:52.000 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:52.000 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:52.000 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:52.001 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' using the name '"id"' in request data ...
+2022-11-04 14:51:52.001 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:52.001 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:52.001 +03:00 [Debug] Attempting to validate the bound parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:52.001 +03:00 [Debug] Done attempting to validate the bound parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:55.659 +03:00 [Debug] "DELETE" requests are not supported
+2022-11-04 14:51:55.659 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/5"'
+2022-11-04 14:51:55.659 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"' with route pattern '"api/contacts/{id}"' is valid for the request path '"/api/contacts/5"'
+2022-11-04 14:51:55.659 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.DeleteContact (Backend)"'
+2022-11-04 14:51:55.659 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:51:55.659 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:51:55.659 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:51:55.659 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:51:55.659 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:51:55.659 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:55.660 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:51:55.660 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:55.660 +03:00 [Debug] Attempting to bind parameter '"id"' of type '"System.Int32"' using the name '"id"' in request data ...
+2022-11-04 14:51:55.660 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:55.660 +03:00 [Debug] Done attempting to bind parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:51:55.660 +03:00 [Debug] Attempting to validate the bound parameter '"id"' of type '"System.Int32"' ...
+2022-11-04 14:51:55.660 +03:00 [Debug] Done attempting to validate the bound parameter '"id"' of type '"System.Int32"'.
+2022-11-04 14:52:01.038 +03:00 [Debug] "PUT" requests are not supported
+2022-11-04 14:52:01.038 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:52:01.038 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:52:01.038 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:01.039 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:52:01.039 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:52:01.039 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:52:01.039 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:52:01.039 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:52:01.039 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:52:01.039 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:52:01.039 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:52:01.039 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:52:01.039 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:52:01.039 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:52:01.039 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:52:01.039 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:52:01.039 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:52:01.040 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:52:09.035 +03:00 [Debug] "PUT" requests are not supported
+2022-11-04 14:52:09.035 +03:00 [Debug] 1 candidate(s) found for the request path '"/api/contacts/"'
+2022-11-04 14:52:09.035 +03:00 [Debug] Endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"' with route pattern '"api/contacts"' is valid for the request path '"/api/contacts/"'
+2022-11-04 14:52:09.035 +03:00 [Debug] Request matched endpoint '"Backend.PL.Controllers.ContactController.UpdateContact (Backend)"'
+2022-11-04 14:52:09.035 +03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-04 14:52:09.035 +03:00 [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+2022-11-04 14:52:09.035 +03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-11-04 14:52:09.035 +03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-04 14:52:09.035 +03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-11-04 14:52:09.035 +03:00 [Debug] Executing controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:52:09.035 +03:00 [Debug] Executed controller factory for controller "Backend.PL.Controllers.ContactController" ("Backend")
+2022-11-04 14:52:09.035 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:52:09.035 +03:00 [Debug] Attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' using the name '""' in request data ...
+2022-11-04 14:52:09.035 +03:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter"' for content type '"application/json"'.
+2022-11-04 14:52:09.036 +03:00 [Debug] JSON input formatter succeeded, deserializing to type '"Backend.PL.DTO.ContactDto"'
+2022-11-04 14:52:09.036 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:52:09.036 +03:00 [Debug] Done attempting to bind parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 14:52:09.036 +03:00 [Debug] Attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"' ...
+2022-11-04 14:52:09.036 +03:00 [Debug] Done attempting to validate the bound parameter '"contactDto"' of type '"Backend.PL.DTO.ContactDto"'.
+2022-11-04 15:11:47.692 +03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-04 15:11:47.761 +03:00 [Debug] Hosting starting
+2022-11-04 15:11:47.817 +03:00 [Debug] Loaded hosting startup assembly "Backend"
+2022-11-04 15:11:47.817 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-04 15:11:47.817 +03:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-04 15:11:47.817 +03:00 [Debug] Hosting started
+2022-11-04 15:11:47.874 +03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-04 15:11:47.895 +03:00 [Debug] The request path "" does not match the path filter
+2022-11-04 15:11:47.917 +03:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-04 15:11:47.919 +03:00 [Debug] Request matched endpoint '"/ HTTP: GET"'

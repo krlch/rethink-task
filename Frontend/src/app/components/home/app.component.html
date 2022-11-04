@@ -1,0 +1,99 @@
+<style>
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar border-bottom" role="banner">
+  <div class="mx-5">
+    <img width="40" alt="Angular Logo"
+      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+    <span>Contacts app</span>
+
+
+  </div>
+</div>
+
+
+
+<div class="content" role="main">
+  <div class="d-flex w-100 items-center justify-content-center">
+    <div class=" content w-100 mt-4">
+      <div class="w-100% border-bottom pb-1">
+        <button class="rounded success btn btn-success mx-1">New</button>
+
+      </div>
+    </div>
+  </div>
+  <div>
+    <ng-container *ngIf="items && items?.length">
+      <!-- <h2 class="mt-5">Users</h2> -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope=" col">Id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of items">
+            <td scope="row">{{user.id}}</td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.email}}</td>
+            <td><button class="btn btn-primary" (click)="openEdit(modalEditRef, user)">Edit</button></td>
+            <td><button class="btn btn-danger" (click)="deleteUser(user)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </ng-container>
+  </div>
+</div>
+
+
+<ng-template #modalEditRef let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Edit user</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="model.email" name="email" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1"  [(ngModel)]="model.password" name="password" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="text" class="form-control" id="name"
+        required
+        [(ngModel)]="model.firstName" name="name">
+      </div>
+      <div class="form-group form-check">
+        <input type="text" class="form-control" id="name"
+        required
+        [(ngModel)]="model.lastName" name="name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+  </div>
+</ng-template>
+
+<router-outlet></router-outlet>

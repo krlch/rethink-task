@@ -1,0 +1,7 @@
+﻿2022-11-04 14:16:08.715 +03:00 [Error] Error caught in ApplicationHelperException: Contact not found
+2022-11-04 14:21:43.490 +03:00 [Error] Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Backend.PL.Controllers.ContactController'.
+2022-11-04 14:22:02.589 +03:00 [Error] Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Backend.PL.Controllers.ContactController'.
+2022-11-04 14:29:32.302 +03:00 [Error] Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Backend.PL.Controllers.ContactController'.
+2022-11-04 14:29:32.317 +03:00 [Error] HTTP "GET" "/api/contacts/" responded 500 in 151.6135 ms
+2022-11-04 14:51:57.604 +03:00 [Error] Error caught in ApplicationHelperException: Contact not found
+2022-11-04 14:52:10.616 +03:00 [Error] Error caught in ApplicationHelperException: Contact not found
